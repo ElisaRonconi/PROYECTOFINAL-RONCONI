@@ -20,19 +20,15 @@
             "outputPath": "dist/proyecto",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "polyfills": "scr/polyfills.ts",
+            "polyfills":"",
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "node_modules/bootstrap/bootstrap-5.3.0-alpha3-dist/css/bootstrap.css"
-            ],
-            "scripts": [
-              "node_modules/bootstrap/bootstrap-5.3.0-alpha3-dist/js/bootstrap.js"
-            ]
+              "src/styles.css"],
+            "scripts": [ ]
           },
           "configurations": {
             "production": {
